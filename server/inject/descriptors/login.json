@@ -49,9 +49,9 @@
     },
     "isLogin": {
       "type": "identifier",
-      "selector": ".button",
+      "selector": "a",
       "control": "exists",
-      "selectContains": "Login"
+      "selectContains": "Signup for a new account"
     }
   },
   "connect": []
