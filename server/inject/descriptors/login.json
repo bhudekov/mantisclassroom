@@ -43,8 +43,15 @@
           "type": "string"
         }
       },
+      "selector": "input.button",
+      "control": "action.click",
+      "selectContains": "Login"
+    },
+    "isLogin": {
+      "type": "identifier",
       "selector": ".button",
-      "control": "action.click"
+      "control": "exists",
+      "selectContains": "Login"
     }
   },
   "connect": []
