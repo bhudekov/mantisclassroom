@@ -44,8 +44,7 @@
         }
       },
       "selector": ".button",
-      "control": "action.click",
-      "selectContains": "Login"
+      "control": "action.click"
     },
     "isLogin": {
       "type": "identifier",
