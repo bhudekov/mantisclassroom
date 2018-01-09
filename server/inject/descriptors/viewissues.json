@@ -34,7 +34,12 @@
             "type": "string",
             "selector": "td",
             "control": "property.innerText",
-            "selectIndex": 7
+            "selectIndex": 9
+          },
+          "updated": {
+            "type": "string",
+            "selector": "a",
+            "control": "action.link"
           }
         }
       }
