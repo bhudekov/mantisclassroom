@@ -14,8 +14,9 @@
         "properties": {
           "id": {
             "type": "string",
-            "selector": "a[href]",
-            "control": "property.innerText"
+            "selector": "td",
+            "control": "property.innerText",
+            "selectIndex": 3
           }
         }
       }
