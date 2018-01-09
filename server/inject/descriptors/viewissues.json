@@ -3,8 +3,8 @@
   "properties": {
     "isViewIssues": {
       "type": "identifier",
-      "selector": "#buglist > tbody > tr:nth-child(1) > td > span:nth-child(1)",
-      "control": "exists"
+      "selector": "html",
+      "control": "view_all_bug_page"
     },
     "issueslist": {
       "type": "array",
