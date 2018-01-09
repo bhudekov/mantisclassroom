@@ -5,6 +5,14 @@
       "type": "identifier",
       "selector": "#buglist > tbody > tr:nth-child(1) > td > span:nth-child(1)",
       "control": "exists"
+    },
+    "issueslist": {
+      "type": "array",
+      "selectorAll": "body",
+      "items": {
+        "type": "object",
+        "properties": {}
+      }
     }
   },
   "connect": []
