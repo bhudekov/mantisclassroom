@@ -32,8 +32,9 @@
           },
           "severity": {
             "type": "string",
-            "selector": "a",
-            "control": "action.link"
+            "selector": "td",
+            "control": "property.innerText",
+            "selectIndex": 7
           }
         }
       }
