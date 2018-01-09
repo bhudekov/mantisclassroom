@@ -54,5 +54,14 @@
       "selectContains": "Signup for a new account"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "isLogin"
+      ],
+      "screens": [
+        "login"
+      ]
+    }
+  ]
 }
