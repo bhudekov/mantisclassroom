@@ -16,7 +16,12 @@
             "type": "string",
             "selector": "td",
             "control": "property.innerText",
-            "selectIndex": 3
+            "selectIndex": 10
+          },
+          "summary": {
+            "type": "string",
+            "selector": "a",
+            "control": "action.link"
           }
         }
       }
