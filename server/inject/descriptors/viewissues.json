@@ -4,7 +4,7 @@
     "isViewIssues": {
       "type": "identifier",
       "selector": "html",
-      "control": "view_all_bug_page"
+      "control": "url.view_all_bug_page"
     },
     "issueslist": {
       "type": "array",
