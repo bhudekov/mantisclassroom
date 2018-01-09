@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "isLanding": {
+      "type": "identifier",
+      "selector": "page.href",
+      "control": "exists",
+      "selectContains": "my_view_page"
+    }
+  },
+  "connect": []
+}
