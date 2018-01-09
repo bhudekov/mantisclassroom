@@ -69,6 +69,29 @@
         "update": {
           "type": "none"
         }
+      },
+      "issueslist": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "summary": {
+              "type": "string"
+            },
+            "category": {
+              "type": "string"
+            },
+            "severity": {
+              "type": "string"
+            },
+            "updated": {
+              "type": "string"
+            }
+          }
+        }
       }
     }
   }
